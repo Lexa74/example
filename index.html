@@ -1,11 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <button>Кнопочка</button>
-</body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <button class="btn" data-count="5">Получить 5 вопросов</button>
+    <button class="btn" data-count="10">Получить 10 вопросов</button>
+    <button class="btn" data-count="35">Получить 35 вопросов</button>
+    <div class="content">
+      <ol class="content__list"></ol>
+    </div>
+  </body>
+  <script src="./dist/main.js"></script>
 </html>
